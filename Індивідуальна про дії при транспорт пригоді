@@ -5,10 +5,10 @@ int main() {
     int number_of_vehicles;
     int i;
 
-    printf("Enter the type of accident (1 for minor, 2 for major): ");
+    printf("Введіть тип аварії (1 для незначного, 2 для великого): ");
     scanf("%d", &accident_type);
 
-    printf("Enter the number of vehicles involved: ");
+    printf("Введіть кількість задіяних транспортних засобів: ");
     scanf("%d", &number_of_vehicles);
 
     if (accident_type == 1) {
@@ -39,4 +39,3 @@ int main() {
     }
 
     return 0;
-}
